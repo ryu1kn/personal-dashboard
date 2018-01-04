@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "first-time": "yarn && cd mobile && yarn",
+    "start": "cd mobile && yarn start",
     "lint": "eslint .",
-    "test": "cd mobile && yarn && yarn test",
+    "test": "cd mobile && yarn test",
     "validate": "yarn run lint && yarn test"
   },
   "devDependencies": {
